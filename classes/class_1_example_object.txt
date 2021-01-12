@@ -1,0 +1,14 @@
+plate
+
+attributes:
+numStock = 124;
+typeOfKitchenware = "dish";
+isClean = true;
+usedForPreppingOrEating = "for eating";
+
+
+methods:
+useItem (updates isClean boolean to false)
+buyStock (increases numStock integer to 136)
+breakDish (decrease numStock integer to 135)
+washItem (updates isClean boolean to true)

@@ -5,11 +5,10 @@ numStock (integer)
 typeOfKitchenware (string)
 isClean (boolean)
 usedForPreppingOrEating (string)
-currentMealUtensils (array)
 
 
 methods:
 useItem (updates isClean boolean to false)
 buyStock (increases numStock integer)
-nextCourse (remove used items from currentMealUtensils array and add kitchenware needed for next meal course)
 breakDish (decrease numStock integer by 1)
+washItem (updates isClean boolean to true)
