@@ -1,0 +1,13 @@
+Staff
+
+attributes:
+hoursClockedThisPayPeriod (integer)
+onTheClock (boolean)
+hourlyPay (string)
+tablesAssigned (array)
+
+methods:
+clockIn (updates onTheClock to true)
+clockOut (updates hoursClockedThisPayPeriod and updates onTheClock to false)
+raise (updates hourlyPay)
+checkPaid (removes table from tablesAssigned array)

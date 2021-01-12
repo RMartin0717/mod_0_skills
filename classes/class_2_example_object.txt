@@ -1,0 +1,13 @@
+greg
+
+attributes:
+hoursClockedThisPayPeriod = 18;
+onTheClock = false;
+hourlyPay = "$16.75"
+tablesAssigned = ["Table 2", "Table 3", "Table 4", "Table 7", "Table 12"]
+
+methods:
+clockIn (updates onTheClock to true)
+clockOut (updates hoursClockedThisPayPeriod to 22 and updates onTheClock to false)
+raise (updates hourlyPay to "$17.00")
+checkPaid (removes "Table 2" from tablesAssigned array)
