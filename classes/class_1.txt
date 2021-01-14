@@ -1,7 +1,7 @@
 KitchenWare
 
 attributes:
-numStock (integer)
+availableStock (integer)
 typeOfKitchenware (string)
 isClean (boolean)
 usedForPreppingOrEating (string)
@@ -9,6 +9,6 @@ usedForPreppingOrEating (string)
 
 methods:
 useItem (updates isClean boolean to false)
-buyStock (increases numStock integer)
-breakDish (decrease numStock integer by 1)
+buyStock (increases availableStock integer)
+breakDish (decrease availableStock integer by 1)
 washItem (updates isClean boolean to true)

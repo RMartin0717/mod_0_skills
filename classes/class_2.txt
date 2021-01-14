@@ -3,7 +3,7 @@ Staff
 attributes:
 hoursClockedThisPayPeriod (integer)
 onTheClock (boolean)
-hourlyPay (string)
+hourlyPay (float)
 tablesAssigned (array)
 
 methods:
